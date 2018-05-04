@@ -187,7 +187,6 @@ function (Okta, Q, Backbone, SharedUtil, CryptoUtil, Logger, OktaAuth, Util, Exp
       spyOn(Logger, 'warn');
       var fn = function () { setup({ foo: 'bla' }); };
       expect(fn).not.toThrow();
-      expectUnexpectedFieldLog('foo');
     });
     it('throws a ConfigError if el is not passed as a widget param', function () {
       var fn = function () { setup({ el: undefined }); };
