@@ -11,7 +11,8 @@
   },
   "globals": {
     "spyOnEvent": false,
-    "JSON": true
+    "JSON": true,
+    "PROD_MODE": true
   },
   "rules": {
     "camelcase": 2,
